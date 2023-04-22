@@ -13,7 +13,7 @@ user@server:/volume1/ $ sudo git clone https://github.com/ToolboxAid/docker_assi
 - Directory and file needs to be owned by you
 ```
 user@server:/volume1/ $ sudo chown -R {user:group} ./docker_assistant/
-user@server:/volume1/ $ chmod 775 -R ./docker_assistant/
+user@server:/volume1/ $ sudo chmod 775 -R ./docker_assistant/
 ```
 - 'cd' to docker_assistant
 ```
@@ -21,7 +21,7 @@ user@server:/volume1/ $ cd ./docker_assistant/
 ```
   
 ### 2 - Setup Docker Assistant environment setup
-- Execute script 'user@server:/volume1/docker_assistant/ $ sudo ./env.setup.sh'
+- Execute script 'user@server:/volume1/docker_assistant/ $ sudo ./setup.env.sh'
   - Please review/update your generated files for correctness
 ```
 /voloume1
